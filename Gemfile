@@ -10,6 +10,8 @@ group :development do
 end
 
 group :test do
+  gem 'test-unit', '3.1.8'
+  gem 'minitest-reporters', '1.0.5'
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
 end
